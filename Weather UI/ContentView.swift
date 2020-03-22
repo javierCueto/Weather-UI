@@ -9,9 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var forecastViewModel: ForecastViewModel
+    
+    init(){
+        self.forecastViewModel = ForecastViewModel()
+    }
+    
     var body: some View {
         ZStack(){
             BackSplash()
+            TextField("Enter city name", text: self.$forecastViewModel.cityName){
+                self.forecastViewModel.searCity()
+            }
         }
     }
 }
