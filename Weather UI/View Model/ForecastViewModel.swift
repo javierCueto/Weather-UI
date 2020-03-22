@@ -19,6 +19,21 @@ class ForecastViewModel: ObservableObject {
         self.weatherService = Services()
     }
     
+    var currentCity: String {
+        if let city = self.weatherForecast.city?.name {
+            return city
+        }else{
+            return ""
+        }
+    }
+    
+    var currentCountry: String{
+        if let country = self.weatherForecast.city?.country{
+            return country
+        }else{
+            return ""
+        }
+    }
     
     func searCity(){
         if let city = self.cityName.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed){

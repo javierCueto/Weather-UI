@@ -32,7 +32,7 @@ class Services{
             
             let weatherResponse = try? JSONDecoder().decode(ForecastWeatherResponse.self, from: data)
             
-            print("\(weatherResponse)")
+            //print("\(weatherResponse)")
             if let weatherResponse = weatherResponse{
                 completion(weatherResponse)
             } else {

@@ -21,6 +21,8 @@ struct ContentView: View {
             TextField("Enter city name", text: self.$forecastViewModel.cityName){
                 self.forecastViewModel.searCity()
             }
+            
+            Text("City \(forecastViewModel.cityName) ")
         }
     }
 }

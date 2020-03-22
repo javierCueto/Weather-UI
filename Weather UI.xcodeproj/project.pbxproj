@@ -91,6 +91,7 @@
 		CFEA3BCF2426FC4A00A09DFF /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				CFEA3BDC2427084900A09DFF /* ForecastViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -115,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				CFEA3BD62426FD1600A09DFF /* BackSplash.swift */,
-				CFEA3BDC2427084900A09DFF /* ForecastViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
