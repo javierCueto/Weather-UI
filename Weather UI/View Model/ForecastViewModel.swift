@@ -11,12 +11,20 @@ import SwiftUI
 
 class ForecastViewModel: ObservableObject {
     var weatherService: Services!
-    var cityName: String = "Guadalajara"
+    var cityName: String = "Cabos,MX"
     
     @Published var weatherForecast = ForecastWeatherResponse()
     
     init(){
         self.weatherService = Services()
+    }
+    
+    func getForecastList() ->[MainForescastParams] {
+        if let mList = self.weatherForecast.list{
+            return mList
+        }else{
+            return []
+        }
     }
     
     var currentCity: String {

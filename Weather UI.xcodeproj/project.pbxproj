@@ -11,6 +11,7 @@
 		CF74F6C52427B9670063A246 /* MidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74F6C42427B9670063A246 /* MidView.swift */; };
 		CF74F6C72427BCBD0063A246 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74F6C62427BCBD0063A246 /* Helper.swift */; };
 		CF74F6C92427ED9F0063A246 /* CurrentTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74F6C82427ED9F0063A246 /* CurrentTempView.swift */; };
+		CF74F6CB2427FE320063A246 /* BottonScrollForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74F6CA2427FE320063A246 /* BottonScrollForecast.swift */; };
 		CFEA3BBC2426FB8800A09DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA3BBB2426FB8800A09DFF /* AppDelegate.swift */; };
 		CFEA3BBE2426FB8800A09DFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA3BBD2426FB8800A09DFF /* SceneDelegate.swift */; };
 		CFEA3BC02426FB8800A09DFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA3BBF2426FB8800A09DFF /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 		CF74F6C42427B9670063A246 /* MidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidView.swift; sourceTree = "<group>"; };
 		CF74F6C62427BCBD0063A246 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		CF74F6C82427ED9F0063A246 /* CurrentTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTempView.swift; sourceTree = "<group>"; };
+		CF74F6CA2427FE320063A246 /* BottonScrollForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottonScrollForecast.swift; sourceTree = "<group>"; };
 		CFEA3BB82426FB8800A09DFF /* Weather UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEA3BBB2426FB8800A09DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFEA3BBD2426FB8800A09DFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				CF74F6C22427B1920063A246 /* TopView.swift */,
 				CF74F6C42427B9670063A246 /* MidView.swift */,
 				CF74F6C82427ED9F0063A246 /* CurrentTempView.swift */,
+				CF74F6CA2427FE320063A246 /* BottonScrollForecast.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				CFEA3BD72426FD1600A09DFF /* BackSplash.swift in Sources */,
 				CF74F6C92427ED9F0063A246 /* CurrentTempView.swift in Sources */,
 				CF74F6C72427BCBD0063A246 /* Helper.swift in Sources */,
+				CF74F6CB2427FE320063A246 /* BottonScrollForecast.swift in Sources */,
 				CF74F6C32427B1920063A246 /* TopView.swift in Sources */,
 				CFEA3BDB242704BF00A09DFF /* Service.swift in Sources */,
 			);

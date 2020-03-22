@@ -31,8 +31,31 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 200, height: 200, alignment: .center)
                     .foregroundColor(.white)
+                    .padding(.top,100)
+                
+                
                 CurrentTempView(forecasViewModel: forecastViewModel)
+                
+                Text("7-Day Weather Forecast")
+                    .foregroundColor(.white)
+                    .bold()
+                    .padding(.all,20)
+                
+                
+                
+                ScrollView (.horizontal, showsIndicators: false){
+                    HStack{
+                        ForEach(forecastViewModel.getForecastList(), id: \.dt){
+                            forecast in
+                            
+                            BottonScrollForecast(forecastData: forecast)
+                            
+                        }
+                    }
+                }
+                
             }
+            
             
         }
     }
