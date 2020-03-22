@@ -38,8 +38,15 @@ struct TopView: View {
                         self.showField.toggle()
                 }
                 
+            }.onAppear(){
+                self.fetch()
             }
         }
+        
+    }
+    
+    private func fetch(){
+        self.forecastViewModel.searCity()
     }
 }
 

@@ -21,11 +21,13 @@ struct MidView: View {
                 
                 Text("\(self.forecastViewModel.weatherDay)")
                 .foregroundColor(.white)
-                .font(.title)
-                .fontWeight(.light)
+                .font(.system(size: 15))
+                .fontWeight(.bold)
                 
                 
             }
-        }
+            Spacer()
+        }.padding(.trailing, 200)
+   
     }
 }

@@ -25,6 +25,15 @@ struct ContentView: View {
                 MidView(forecastViewModel: forecastViewModel)
             }
             
+            VStack(alignment: .center, spacing: 8){
+                
+                Image(systemName: Helper().showWeatherIcon(item: self.forecastViewModel.weatherForecast))
+                    .resizable()
+                    .frame(width: 200, height: 200, alignment: .center)
+                    .foregroundColor(.white)
+                CurrentTempView(forecasViewModel: forecastViewModel)
+            }
+            
         }
     }
 }
