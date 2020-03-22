@@ -21,6 +21,8 @@ struct ContentView: View {
             BackSplash()
             VStack {
                 TopView(showField: self.showView, forecastViewModel: forecastViewModel)
+                
+                MidView(forecastViewModel: forecastViewModel)
             }
             
         }

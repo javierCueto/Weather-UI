@@ -35,6 +35,15 @@ class ForecastViewModel: ObservableObject {
         }
     }
     
+    var weatherDay: String {
+        if let day = self.weatherForecast.list?.first?.dt{
+            let formattedDay = Helper().timeConverter(timeStamp: day, isDay: false)
+            return formattedDay
+        }else{
+            return ""
+        }
+    }
+    
     func searCity(){
         if let city = self.cityName.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed){
             fetchWeatherForecast(by: city)
