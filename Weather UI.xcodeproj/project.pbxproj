@@ -13,6 +13,7 @@
 		CFEA3BC22426FB8A00A09DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA3BC12426FB8A00A09DFF /* Assets.xcassets */; };
 		CFEA3BC52426FB8A00A09DFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA3BC42426FB8A00A09DFF /* Preview Assets.xcassets */; };
 		CFEA3BC82426FB8A00A09DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEA3BC62426FB8A00A09DFF /* LaunchScreen.storyboard */; };
+		CFEA3BD72426FD1600A09DFF /* BackSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA3BD62426FD1600A09DFF /* BackSplash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CFEA3BC42426FB8A00A09DFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFEA3BC72426FB8A00A09DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFEA3BC92426FB8A00A09DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEA3BD62426FD1600A09DFF /* BackSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSplash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,11 @@
 		CFEA3BBA2426FB8800A09DFF /* Weather UI */ = {
 			isa = PBXGroup;
 			children = (
+				CFEA3BD32426FC8000A09DFF /* Helpers */,
+				CFEA3BD22426FC7100A09DFF /* Views */,
+				CFEA3BD12426FC6700A09DFF /* Data */,
+				CFEA3BD02426FC5600A09DFF /* Services */,
+				CFEA3BCF2426FC4A00A09DFF /* View Model */,
 				CFEA3BBB2426FB8800A09DFF /* AppDelegate.swift */,
 				CFEA3BBD2426FB8800A09DFF /* SceneDelegate.swift */,
 				CFEA3BBF2426FB8800A09DFF /* ContentView.swift */,
@@ -73,6 +80,42 @@
 				CFEA3BC42426FB8A00A09DFF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFEA3BCF2426FC4A00A09DFF /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CFEA3BD02426FC5600A09DFF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CFEA3BD12426FC6700A09DFF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CFEA3BD22426FC7100A09DFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFEA3BD62426FD1600A09DFF /* BackSplash.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFEA3BD32426FC8000A09DFF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +192,7 @@
 				CFEA3BBC2426FB8800A09DFF /* AppDelegate.swift in Sources */,
 				CFEA3BBE2426FB8800A09DFF /* SceneDelegate.swift in Sources */,
 				CFEA3BC02426FB8800A09DFF /* ContentView.swift in Sources */,
+				CFEA3BD72426FD1600A09DFF /* BackSplash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
